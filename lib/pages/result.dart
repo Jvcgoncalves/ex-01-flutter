@@ -107,10 +107,10 @@ class _State extends State<ResultPage> {
                 Text(resultStatus),
                 ElevatedButton(
                   onPressed: () => Navigator.pop(context),
-                  child: Text("Jogar novamente", style: TextStyle(color: Colors.white) ,),
                   style: ButtonStyle(
                     backgroundColor: MaterialStateProperty.all<Color>(Colors.red),
-                  )
+                  ),
+                  child: Text("Jogar novamente", style: TextStyle(color: Colors.white) ,),
                 )
               ],
             )
